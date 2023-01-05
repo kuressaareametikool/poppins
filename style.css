@@ -47,8 +47,10 @@ header{
 }
 
 .header_pilt img{
-    width: 80px;
-    height: 20px;
+    width: 170px;
+    height: 40px;
+    
+   
 }
 
 .leia{
@@ -347,7 +349,7 @@ p {
 
     .header_pilt img{
         width: fit-content;
-        height: 85px;
+        height: 65px;
     }
 
     .item {
