@@ -8,7 +8,12 @@ body{
     padding: 0px;
     background-color: #64c0c2;
     background-image: url("images/Kaart_2-01.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
 }
+
 a{
     text-decoration: none;
     color: #000;
@@ -204,7 +209,7 @@ header{
     padding: 20px;
     position: relative;
     overflow: hidden;
-    margin-left: 33%;
+    margin: auto;
 }
 
 .light .calendar {
