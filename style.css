@@ -6,7 +6,8 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #FFFFED;
+    background-color: #64c0c2;
+    background-image: url("images/Kaart_2-01.png");
 }
 a{
     text-decoration: none;
@@ -65,19 +66,22 @@ header{
    
 }
 
-.leia{
+.leia{ 
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     position: absolute;
-    top: 24%;
-    left: 40%;
-    transform: translate(-50%, -50%);
+    width: 100%;
     z-index: 1;
 }
+.leia h3 {    
+    text-align: center;
+    margin-top: 2rem;
+}
+
 .kohe{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     position: absolute;
     top: 30%;
-    left:30%;
+    left:50%;
     transform: translate(-50%, -50%);
     z-index: 1;
 }
@@ -151,7 +155,7 @@ header{
 
 .tutvustus img {
     width: 100%;
-    height: 500px;
+    height: 100%;
     object-fit: cover;      
 }
 
